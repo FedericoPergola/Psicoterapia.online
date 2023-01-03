@@ -1,0 +1,24 @@
+
+.container-fluid img{
+    width: 71px;
+    height: 71px;
+};
+
+.logo-content a{
+    font-family: 'Unbounded';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    line-height: 22.56px;
+}
+
+
+.nav li a {
+    color: var(--color-6-typography);
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+};
