@@ -7,7 +7,7 @@ import luciana from '../../assests/luciana.png'
 const Team = () => {
   return (
     <div className='team-content'>
-        <div className=' title-team d-flex justify-content-center pt-5'>
+        <div className=' title-team d-flex justify-content-center'>
             <h2>Conoce a nuestro equipo</h2>
         </div>
         <div className='Team d-flex  justify-content-evenly'>
