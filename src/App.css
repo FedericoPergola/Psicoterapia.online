@@ -1,12 +1,14 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #431C6B !important;
 };
 
 :root{
   --color-1:#58119C;
-  --color-2: #6FBDD2; 
+  --color-2: #A7DBA5; 
   --color-3: #BDBBF4;
   --color-4: #FDF4E4;
   --color-5: #FFFFFF;

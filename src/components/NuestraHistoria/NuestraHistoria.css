@@ -1,0 +1,23 @@
+.container-NH{
+    background-image: url("../../assests/fondoHistoria.png");
+    width: 100%;
+}
+
+.img-flecha{
+    width: 26px;
+}
+
+.container-conoceNH{
+    margin-top: 100px;
+}
+
+.card-conoceNH{
+    text-align: justify;
+    padding-right: 6%;
+}
+
+.card-text{
+    color: #ffff !important;
+}
+
+
