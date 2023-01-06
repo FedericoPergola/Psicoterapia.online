@@ -15,7 +15,7 @@ const Team = () => {
                 <div className='d-flex justify-content-center pt-3'>
                     <img className='img card-img-top' src={natalia} alt="..."/> 
                 </div>
-                <div class="card-body pt-5">
+                <div class="card-body card-body-team pt-5">
                     <p className='text-lic'>Lic. Natalia Brunati</p>
                     <p>Licenciada en Psicología</p>
                 </div>
@@ -24,7 +24,7 @@ const Team = () => {
                 <div className='d-flex justify-content-center pt-3'>
                     <img className='img card-img-top' src={melisa} alt="..."/> 
                 </div>
-                <div class="card-body pt-5">
+                <div class="card-body card-body-team pt-5 ">
                     <p className='text-lic'>Lic. Melisa Condello</p>
                     <p>Licenciada en Psicología</p>
                 </div>
@@ -33,7 +33,7 @@ const Team = () => {
                 <div className='d-flex justify-content-center pt-3'>
                     <img className='img card-img-top' src={luciana} alt="..."/> 
                 </div>
-                <div class="card-body pt-5">
+                <div class="card-body card-body-team pt-5">
                     <p className='text-lic'>Lic. Luciana Schammah</p>
                     <p>Licenciada en Psicología</p>
                 </div>

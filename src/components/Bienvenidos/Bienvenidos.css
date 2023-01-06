@@ -1,0 +1,31 @@
+.bienvenidos-container{
+    align-items: center;
+}
+
+.img-bienvenidos{
+    width: 100%;
+}
+
+.container-bienv{
+    width: 633px;
+    color: var(--color-6-typography);
+}
+
+.container-imgBienv{
+    width: 663.87px;
+    height: 637.1px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.btn-bienv{
+    background-color: #A7DBA5;
+    font-weight:bold;
+    margin-top: 50px;
+}
+.btn-bienv:hover{
+    background-color: #B3B5B6;
+    color: #FFFFFF !important;
+}

@@ -1,24 +1,17 @@
 
-.container-fluid img{
-    width: 71px;
+.tamano-logo{
+    width: 251px;
     height: 71px;
 };
 
-.logo-content a{
-    font-family: 'Unbounded';
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    line-height: 22.56px;
+.container-modif-lineaDiv{
+    --bs-gutter-x: 0rem;
+}
+.div-img{
+    width: 100%;
+    vertical-align: super;
 }
 
-
-.nav li a {
-    color: var(--color-6-typography);
-    font-family: 'Unbounded';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: -0.015em;
-};
+.nav-text{
+    color: var(--color-6-typography); 
+}

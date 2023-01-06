@@ -30,7 +30,7 @@ const Services = () => {
                 </div>
             </div>
             <div class="card">
-                <div class="card-body card-body-service">
+                <div class=" card-body card-body-service">
                     <h5 class="card-title">Talleres y Formaciones</h5>
                     <p class="card-text-service pe-2 ps-1">Brindamos talleres grupales de diversas temáticas orientadas a la salud para cualquier persona interesada en el desarrollo personal.<br/>
                     Si sos profesional de la salud o estudiante también contamos con una oferta de formación que se ve renovando año a año.</p><br></br><br></br><br></br>

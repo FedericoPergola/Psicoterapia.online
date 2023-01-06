@@ -1,0 +1,14 @@
+:root{
+    --color-1:#58119C;
+    --color-2: #A7DBA5; 
+    --color-3: #BDBBF4;
+    --color-4: #FDF4E4;
+    --color-5: #FFFFFF;
+    --color-6-typography: #431C6B;
+    --color-gradient: linear-gradient(89.99deg, #431C6B 0%, #BDBBF4 51.35%, #FDF4E4 68.02%, #8ABF88 88.33%);
+  }
+
+  .background{
+    background-image: url("../src/assests/fondo-team.png");
+    background-color: rgb(233, 229, 229);
+  }
