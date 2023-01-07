@@ -21,11 +21,16 @@
 }
 
 .btn-bienv{
-    background-color: #A7DBA5;
+    background-color: var(--color-2);
     font-weight:bold;
     margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--color-6-typography);
 }
+
 .btn-bienv:hover{
     background-color: #B3B5B6;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
 }
+
+

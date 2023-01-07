@@ -2,22 +2,26 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar/NavBar';
 import LineaDiv from './components/LineaDiv/LineaDiv';
-import Bienvenidos from './components/Bienvenidos/Bienvenidos';
-import NuestraHistoria from './components/NuestraHistoria/NuestraHistoria';
+import Welcome from './components/Welcome/Welcome';
+import AboutUs from './components/AboutUs/AboutUs';
 import Services from '../src/components/Services/Services'
 import Team from '../src/components/Team/Team'
+import Steps from './components/Steps/Steps';
+import Benefits from './components/Benefits/Benefits';
 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Bienvenidos />
-      <NuestraHistoria />
+      <Welcome />
+      <AboutUs />
       <div className='background'>
         <Team />
         <Services />
       </div>
+      <Steps />
+      <Benefits />
     </div>
   );
 }

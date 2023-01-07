@@ -1,15 +1,16 @@
-import './NuestraHistoria.css';
-import flechaVioleta from '../../assests/flechaVioleta.svg';
+import './AboutUs.css';
+import arrowViolet from '../../assests/arrowViolet.svg';
+import aboutUsTitle from '../../assests/aboutUsTitle.svg';
 
-const NuestraHistoria = () => {
+const AboutUs = () => {
     return (
         <div class='container-fluid d-flex flex-column container-NH'>
             <div class='d-flex justify-content-center'>
-                <img class="img-flecha" src={flechaVioleta} alt="flecha"/>            
+                <img class="img-flecha" src={arrowViolet} alt="flecha"/>            
             </div>
             <div class="d-flex flex-column container-conoceNH">
                 <div className='d-flex justify-content-center pt-5'>
-                    <h2 class="card-text">Conoce nuestra historia</h2>
+                    <img src={aboutUsTitle} alt="Conoce nuestra historia"/>
                 </div>
                 <div class="d-flex justify-content-evenly p-5">
                     <div class="card-conoceNH">
@@ -31,4 +32,4 @@ const NuestraHistoria = () => {
     )
 }
 
-export default NuestraHistoria;
+export default AboutUs;
