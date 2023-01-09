@@ -1,0 +1,71 @@
+.faq-content{
+    background-image: url("../../assests/FONDOFAQ.png");
+    background-color: red;
+    color: red;
+}
+
+.accordion-body-second{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.accordion-body{
+    text-align: start;
+} 
+
+.accordion-button:focus{
+    border-color: white;
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: white;
+    box-shadow: none;
+}
+.accordion-collapse{
+    padding: 0px 150px;
+}
+.accordion-body-second p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: var(--color-6-typography);
+}
+
+.faq-title{
+    margin: auto;
+}
+
+.faq-title p{
+    margin-bottom: 0px;
+}
+
+.accordion-button p{
+    color: var(--color-6-typography);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.accordion-button {
+    color: var(--color-6-typography);
+}
+
+.accordion-style{
+    /* border-top: solid var(--color-1); */
+    border-bottom: solid var(--color-1);
+}
+
+.accordion-body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: var(--color-6-typography);
+}
