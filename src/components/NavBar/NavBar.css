@@ -1,12 +1,16 @@
 
 .tamano-logo{
-    width: 251px;
-    height: 71px;
+    width: 200px;
 };
+
+.shadow-violet{
+    box-shadow: 10px 10px var(--color-1);
+}
 
 .container-modif-lineaDiv{
     --bs-gutter-x: 0rem;
 }
+
 .div-img{
     width: 100%;
     vertical-align: super;
@@ -15,3 +19,7 @@
 .nav-text{
     color: var(--color-6-typography); 
 }
+
+.shadow-violet{
+    box-shadow: 0 0.5rem 1rem rgba(88,17,156,.30);
+}                  

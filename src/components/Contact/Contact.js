@@ -3,7 +3,7 @@ import '../Contact/Contact.css'
 import contactImg from '../../assests/Contacto-img.png'
 
 const Contact = () => {
-  return (
+    return (
     <div>
         <div className='contact-title'>
             <h2 className=''>CONTACTO</h2>
@@ -11,7 +11,7 @@ const Contact = () => {
         </div>
         <div className='contact-content d-flex justify-content-center flex-row'>
             <div className='contact-img'>
-                <img src={contactImg} className='m-5'></img>
+                <img src={contactImg} className='m-5' alt='...'></img>
             </div>
             <div >
                 <form action='' className='d-flex flex-column'>
@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
         </div>
     </div>
-  )
+    )
 }
 
 export default Contact
