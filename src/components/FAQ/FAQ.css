@@ -1,8 +1,3 @@
-.faq-content{
-    background-image: url("../../assests/FONDOFAQ.png");
-    background-color: red;
-    color: red;
-}
 
 .accordion-body-second{
     display: flex;
@@ -69,3 +64,11 @@
     line-height: 33px;
     color: var(--color-6-typography);
 }
+
+.accordion-item{
+    border: none;
+    /* background-image: url('../../assests/FONDOFAQ.png');
+    background-size:contain;
+    background-repeat: no-repeat; */
+}
+

@@ -9,6 +9,7 @@ import Team from '../src/components/Team/Team'
 import Steps from './components/Steps/Steps';
 import Benefits from './components/Benefits/Benefits';
 import FAQ from './components/FAQ/FAQ';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Steps />
       <Benefits />
       <FAQ />
+      <Contact />
     </div>
   );
 }
