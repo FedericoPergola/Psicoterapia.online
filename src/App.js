@@ -10,6 +10,7 @@ import Benefits from './components/Benefits/Benefits';
 import FAQ from './components/FAQ/FAQ';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import CR from './components/CopyRight/CopyRight';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <FAQ />
       <Contact />
       <Footer />
+      <CR />
     </div>
   );
 }

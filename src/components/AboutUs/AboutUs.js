@@ -4,7 +4,7 @@ import aboutUsTitle from '../../assests/aboutUsTitle.svg';
 
 const AboutUs = () => {
     return (
-        <div className='container-fluid d-flex flex-column container-NH'>
+        <div className='d-flex flex-column container-NH'>
             <div className='d-flex justify-content-center'>
                 <img className='img-flecha' src={arrowViolet} alt='flecha'/>            
             </div>
