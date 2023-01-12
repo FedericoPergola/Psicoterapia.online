@@ -1,10 +1,14 @@
 import './AboutUs.css';
 import arrowViolet from '../../assests/arrowViolet.svg';
 import aboutUsTitle from '../../assests/aboutUsTitle.svg';
+import bgAboutUs from '../../assests/bgAboutUs.png';
 
 const AboutUs = () => {
     return (
-        <div className='d-flex flex-column container-NH'>
+        <div id="aboutUs" className='d-flex flex-column'>
+            <div className='bg-container'>
+                <img className='bg-aboutUs' src={bgAboutUs} alt='...'/>
+            </div>
             <div className='d-flex justify-content-center'>
                 <img className='img-flecha' src={arrowViolet} alt='flecha'/>            
             </div>

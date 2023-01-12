@@ -3,12 +3,13 @@ import './Team.css'
 import natalia from '../../assests/natalia.png'
 import melisa from '../../assests/melisa.png'
 import luciana from '../../assests/luciana.png'
+import teamTitle from '../../assests/teamTitle.svg'
 
 const Team = () => {
   return (
-    <div className='team-content'>
-        <div className=' title-team d-flex justify-content-center'>
-            <h2>Conoce a nuestro equipo</h2>
+    <div id='team' className='team-content'>
+        <div className='d-flex justify-content-center pt-5 m-5'>
+            <img src={teamTitle} alt='Conoce a nuestro equipo'/>
         </div>
         <div className='Team d-flex  justify-content-evenly'>
             <div class="card-content w-25">

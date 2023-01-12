@@ -1,3 +1,20 @@
+.bg-container-faq{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.bg-faq{
+    margin-top: 100px;
+    width: 100%;
+    height: 240px;
+}
+
+.faq-title{
+    padding-left: 20% ;
+    z-index: 0;
+    margin: auto;
+}
 
 .accordion-body-second{
     display: flex;
@@ -9,13 +26,24 @@
     text-align: start;
 } 
 
-.accordion-button:focus{
-    border-color: white;
+.accordion-button {
+    z-index: 2;
+    color: white;
     background-color: white;
+    padding:0;
+    font-size:3rem
+}
+
+.accordion-button:focus{
+    z-index: 2;
+    border-color: white;
+    box-shadow: none;
 }
 
 .accordion-button:not(.collapsed){
+    z-index: 3;
     background-color: white;
+    color: white;
     box-shadow: none;
 }
 .accordion-collapse{
@@ -30,10 +58,6 @@
     color: var(--color-6-typography);
 }
 
-.faq-title{
-    margin: auto;
-}
-
 .faq-title p{
     margin-bottom: 0px;
 }
@@ -45,10 +69,6 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 25px;
-}
-
-.accordion-button {
-    color: var(--color-6-typography);
 }
 
 .accordion-style{

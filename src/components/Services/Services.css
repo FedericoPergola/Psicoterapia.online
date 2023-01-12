@@ -12,6 +12,17 @@
     border-radius: 10px;
 }
 
+.text-style{
+    width: 760px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: var(--color-6-typography)
+}
+
 .card-title{
     font-family: 'Montserrat';
     font-style: normal;

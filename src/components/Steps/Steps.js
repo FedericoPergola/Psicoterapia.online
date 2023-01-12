@@ -3,10 +3,14 @@ import stepsTitle from '../../assests/stepsTitle.svg';
 import step1 from '../../assests/step1.png';
 import step2 from '../../assests/step2.png';
 import step3 from '../../assests/step3.png';
+import bgSteps from '../../assests/bgSteps.png';
 
 const Steps = () => {
     return (
         <div className='bg-steps'>
+            <div className='bg-container'>
+                <img className='bg-steps' src={bgSteps} alt='...'/>
+            </div>
             <img className='img-fluid mx-auto d-block pt-5' src={stepsTitle} alt='Inicia tus sesiones'/>
             <div className='d-flex justify-content-around p-5'>
                 <img src={step1} alt="1"/>

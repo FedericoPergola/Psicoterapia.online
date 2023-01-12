@@ -11,6 +11,7 @@ import FAQ from './components/FAQ/FAQ';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import CR from './components/CopyRight/CopyRight';
+import fondoTeam from '../src/assests/fondoTeam.png';
 
 
 function App() {
@@ -19,7 +20,10 @@ function App() {
       <NavBar />
       <Welcome />
       <AboutUs />
-      <div className='background'>
+      <div>
+        <div  className='background'>
+          <img className='bg-team' src={fondoTeam} alt='...'/>
+        </div>
         <Team />
         <Services />
       </div>

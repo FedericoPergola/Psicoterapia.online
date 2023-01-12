@@ -9,6 +9,15 @@
   }
 
   .background{
-    background-image: url("../src/assests/fondo-team.png");
-    background-color: rgb(233, 229, 229);
+    /*background-image: url("../src/assests/fondoTeam.png");*/
+    /*background-color: rgb(233, 229, 229);*/
+    background-color: var(--color-5);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .bg-team{
+    width: 100%;
+    height: 1800px;
   }

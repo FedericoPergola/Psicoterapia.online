@@ -18,19 +18,19 @@ const NavBar = () => {
                 <div className='offcanvas-body justify-content-end'>
                     <ul className='navbar-nav justify-content-end pe-3'>
                         <li className='nav-item mx-3'>
-                            <a className='nav-link nav-text' aria-current='page' href='#'>Sobre nosotros</a>
+                            <a className='nav-link nav-text' aria-current='page' href='#aboutUs'>Sobre nosotros</a>
                         </li>
                         <li className='nav-item mx-3'>
-                            <a className='nav-link nav-text' href='#'>Equipo</a>
+                            <a className='nav-link nav-text' href='#team'>Equipo</a>
                         </li>
                         <li className='nav-item mx-3'>
-                            <a className='nav-link nav-text' href='#'>Servicios</a>
+                            <a className='nav-link nav-text' href='#services'>Servicios</a>
                         </li>
                         <li className='nav-item mx-3'>
-                            <a className='nav-link nav-text' href='#'>FAQ</a>
+                            <a className='nav-link nav-text' href='#faq'>FAQ</a>
                         </li>
                         <li className='nav-item mx-3'>
-                            <a className='nav-link nav-text' href='#'>Contacto</a>
+                            <a className='nav-link nav-text' href='#contact'>Contacto</a>
                         </li>
                     </ul>
                 </div>

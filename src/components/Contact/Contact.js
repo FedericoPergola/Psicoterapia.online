@@ -4,7 +4,7 @@ import contactImg from '../../assests/Contacto-img.png'
 
 const Contact = () => {
     return (
-    <div>
+    <div id='contact'>
         <div className='contact-title'>
             <h2 className=''>CONTACTO</h2>
             <p>¿Tenes algo que decirnos o preguntarnos? ¡Nos encantaría escucharlo!</p>

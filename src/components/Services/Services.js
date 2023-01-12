@@ -3,6 +3,7 @@ import './Services.css'
 import button from '../../assests/button.png'
 import Modal from '../Modal/Modal'
 import useModal from '../Hooks/useModal'
+import serviceTitle from '../../assests/serviceTitle.svg'
 
 const Services = () => {
 
@@ -12,10 +13,13 @@ const Services = () => {
 
     return (
         <>
-            <div className='title-team d-flex justify-content-center pt-5 mt-10'>
-                <h2>Los servicios que ofrecemos</h2>
+            <div id='services' className='d-flex justify-content-center pt-5 m-5'>
+                <img src={serviceTitle} alt='Los servicios que ofrecemos'/>
             </div>
-            <div className='service'>
+            <div className='d-flex justify-content-center'>
+            <p className='text-style'>Te invitamos a explorar las herramientas y servicios que proponemos para relacionarte con lo que te está pasando y para que tus acciones sean un reflejo de tus valores y deseos.</p>
+            </div>
+            <div className='service m-5'>
                 <div class="card">
                     <div class="card-body card-body-service ">
                         <h5 class="card-title">Psicología Clínica</h5>
@@ -51,7 +55,7 @@ const Services = () => {
                 isOpen={isOpenFirstModal}
                 closeModal={closeFirstModal}>
 
-                <div className='modal-text'>
+                <div className='modal-text modal-scroll'>
                     <h2 className='title-modal'><b>Psicología Clínica</b></h2>
                     <p className='description-modal'>La psicología clínica estudia todos los elementos implicados en los trastornos mentales y, de forma más genérica, la salud mental.
                         Así, lleva a cabo todas las tareas de evaluación, diagnóstico, prevención e intervención terapéutica en personas con algún tipo de afectación mental o de conducta desadaptativa, con el fin de restaurar el equilibrio psicológico.

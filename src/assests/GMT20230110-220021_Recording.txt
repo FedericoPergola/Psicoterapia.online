@@ -1,0 +1,154 @@
+00:33:18	Pedro Bosch:	Hola profe. Al final pasaste las respuestas de los ejercicios de la clase pasada?
+00:34:42	ian gimenez:	nono.
+00:34:51	VALENTINA ALMIRON:	no, la ultima no
+00:34:52	Matias Vonella:	No
+00:36:20	Rebeca Guzman:	buenas tardes
+00:36:58	Patricia Yepez:	buenas
+00:37:23	Esteban Poyo Gumiela:	Sub consultas
+00:40:05	Nicolás Cozzi:	no se olvide laqs respuestas para chequear
+00:40:28	Nicolás Cozzi:	genial sisi ahi cargoo
+00:47:05	Isaac Alcides Silva:	jajaj
+00:50:11	Isaac Alcides Silva:	Intersección en matemática...
+00:55:41	Ezequiel Alberto Sueldo:	Algo que no recuerdo de los join… Si hay que especificar el ON, para qué entonces se declaran las foreign keys? Es muy similar no?
+00:59:46	Daniel Toret Bravo:	si
+00:59:49	Daniel Toret Bravo:	no están todas las personas
+01:00:00	Ernesto Campos:	Fernandez
+01:00:01	Daniel Toret Bravo:	se repite newton y solo trae lo que coincide en ambas
+01:00:01	Rafael Martinez Guarnieri:	Fernandez
+01:00:02	Abril Chort Clua:	fernandez
+01:00:23	ian gimenez:	porque no esta personaID
+01:00:23	Matias Vonella:	esta mal el id en la tabla Logros
+01:00:24	Rafael Martinez Guarnieri:	no tiene logros
+01:00:25	ian gimenez:	no coinciden
+01:00:27	Daniel Toret Bravo:	en la tabla 2 los personaiid no coinciden del todo
+01:00:27	Jesús López barra:	la persona id se repite
+01:00:29	Joaquín Vila Moret:	No tiene personaId
+01:00:30	Jesús López barra:	el 3
+01:00:32	Daniel Toret Bravo:	solo 1-2-3-3
+01:00:35	Cristina Nuñez:	la tabla logros no tiene id 4
+01:00:49	Ernesto Campos:	no hay coincidencia
+01:02:40	Yonatan Romero:	perdón xq es Logros con S y no Logro.Logro?
+01:03:01	Yonatan Romero:	Ok
+01:03:03	Yonatan Romero:	perfecto!
+01:03:14	Rafael Martinez Guarnieri:	si
+01:03:16	Ernesto Campos:	Si
+01:03:17	Rebeca Guzman:	si
+01:04:20	Matias Gambarte Rius:	en el caso de que no coincidan el nombre de las columnas de ambas tablas, como se cargaría la condicion
+01:05:25	Matias Gambarte Rius:	bien, gracias !
+01:05:36	[Tutor] Leandro Bulacio:	Yonatan, porque la sintaxis es "NombreDeTabla.NombreDelCampo"
+01:05:45	[Tutor] Leandro Bulacio:	la tabla se llama Logros y el Campo logro
+01:05:54	[Tutor] Leandro Bulacio:	por lo tanto Logros.logro
+01:08:14	Daniel Toret Bravo:	trajo todas las personas
+01:08:41	Joaquin Peñaloza:	podes determinar q fernandez no tuvo logro
+01:08:44	Daniel Toret Bravo:	Pero el último logro de la tabla 2 no lo trajo porque no coincide con el contenido de la tabla 1
+01:08:46	Joaquin Peñaloza:	es asi?
+01:10:33	Rebeca Guzman:	si
+01:10:35	Laura Solbiati:	si
+01:10:41	Ernesto Campos:	Si
+01:10:42	Abril Chort Clua:	si
+01:11:19	Ernesto Campos:	devuelve el logro pero no el nombre
+01:12:06	Ezequiel Alberto Sueldo:	cómo funciona el SELECT DISTINCT en el caso anterior? hubiera no duplicado el registro Newton?
+01:13:06	Ezequiel Alberto Sueldo:	gracias
+01:14:15	Rafael Martinez Guarnieri:	Falta fernandez
+01:14:36	Ernesto Campos:	tendría que ser logro sin Fernandez y Fernandez sin logro
+01:15:01	Matias Gambarte Rius:	porque se le carga condición si te trae todo?
+01:15:03	-Tutor- Elias Salgueiro:	Alumnos, les dejo material para ampliar sobre Joins! https://www.sqlshack.com/es/introduccion-y-resumen-de-la-clausula-de-sql-join/
+01:15:12	Rafael Martinez Guarnieri:	Gracias
+01:15:59	[Tutor] Leandro Bulacio:	Matias, la condición ON es para relacionarse
+01:16:27	[Tutor] Leandro Bulacio:	Los Joins traen el "Resto" de información que esta en otras tablas
+01:16:41	[Tutor] Leandro Bulacio:	o no
+01:22:59	Kevin Escudero:	Es como anexar en algunos programas?
+01:23:41	Abril Chort Clua:	como por ejemplo para unir un histórico de otros años?
+01:25:20	[Tutor] Leandro Bulacio:	Podria ser, si
+01:25:57	Abril Chort Clua:	gracias
+01:33:30	Santiago Pera:	El ejemplo dice LogroID y la tabla I
+01:33:39	Santiago Pera:	Y la tabla IDLogro
+01:35:05	Abril Chort Clua:	si
+01:35:22	Ezequiel Alberto Sueldo:	sí... ese es muy interesante para aprender más
+01:35:32	Ezequiel Alberto Sueldo:	quiero armar una BD en mi laburo y es clave el unión en mi caso
+01:35:35	Isaac Alcides Silva:	Ok
+01:35:46	Profe Dari Ceballos:	20:12 volvemos
+01:35:55	Daniel Toret Bravo:	oka
+01:46:24	Facundo.Vergara:	jajaja estaba esperando que termine el tema
+01:47:18	Rafael Martinez Guarnieri:	si
+01:47:18	Sonia Pamela Juarez:	Buenas tardes, quería avisar que me esta funcionando mal el wifi por la asistecia.
+01:47:19	Esteban Poyo Gumiela:	Si
+01:47:20	VALENTINA ALMIRON:	dale!
+01:47:22	Yonatan Romero:	si
+01:47:25	Sonia Pamela Juarez:	se comenzó a trabar hace un rato
+01:47:30	Sonia Pamela Juarez:	y no lo puedo solucionar
+01:53:17	Agustín Mora:	comio era el diagrama entidad relacion? era lo que vimos al principio del curso?
+01:53:51	Renata Caputo:	hola! alguien se acuerda como se llamaba la pagina que recomendo el profe para dibujar los diagramas de entidad-relacion?
+01:54:18	Joaquín Vila Moret:	Miro
+01:55:08	Nicolás Cozzi:	deberíamos crear la base de datos en sql y hacer las relaciones ahi?
+01:55:15	Emma Rosario Puch Sleive:	edrplus.com
+01:55:18	Nicolás Cozzi:	entregar un .bk
+01:55:20	Nicolás Cozzi:	?
+01:55:21	Agustín Mora:	Entonces: documentación, listado de tablas  y columnas, y los datos ya preparados por nosotros para encarar el proyecto final ?
+01:55:39	VALENTINA ALMIRON:	una consulta, la base que yo elegi tiene una sola tabla. en ese caso como deberías hacer ahora ?
+01:55:59	Renata Caputo:	gracias!
+01:55:59	Emma Rosario Puch Sleive:	Yo estoy trabajando las tablas en excel con la idea de llevarlos a una BD relacional.
+01:56:16	[Tutora] Sabrina ianni lucio:	Posiblemente si tenga muchos campos la puedas dividir
+01:56:23	Rebeca Guzman:	entonces si yo estoytrabajando en Excel pero quiero aprovechar al cien que puedo hacer?
+01:56:41	VALENTINA ALMIRON:	ah esta bien, porque no me lo marcaron en la primera entrega y pensé que estaría bien asi
+01:56:45	Rebeca Guzman:	perfecto, muchas gracias
+01:57:04	Emma Rosario Puch Sleive:	justo eso te iba a preguntar
+01:57:13	Ezequiel Alberto Sueldo:	yo tengo que dividir una tabla gigante de ventas en sus respectivas tablas, ej clientes, artículos. Eso tmb conviene hacerlo en SQL directo?
+01:57:18	Emma Rosario Puch Sleive:	yo separe el excel en varias tablas...
+01:57:19	Matias Gambarte Rius:	profe podría mostrar como se importa desde Excel a sql, ya que lo he querido hacer y no he podido
+01:57:26	Cristina Nuñez:	mi base de datos tiene una sola tabla, pero es posible dividirla en dos  puedo  hacer eso o busco otra base de atos?
+01:57:34	Cristina Nuñez:	datos***
+01:58:03	Agustin Benedetto:	y una vez que trabajamos en sql con los datos los exportamos a un csv?
+01:58:59	Carolina Vivian:	yo los archivos los tengo en csv. como se hace ?
+01:59:00	Daniel Toret Bravo:	de SQL se puede exportar a Excel?
+01:59:19	Rafael Martinez Guarnieri:	Profe en caso de tener una tabla, la division de la misma es recomendable que la haga en SQL?
+01:59:20	Milena Cabrera:	Tengo la misma duda de Cristina
+01:59:30	Ezequiel Alberto Sueldo:	^
+02:00:08	Ezequiel Alberto Sueldo:	o sea hacemos la conversión en Excel y ahí la trabajamos? es mi caso tmb
+02:00:55	Nicolás Cozzi:	después vamos a tener que hacer consultas en nuestra base de datos
+02:01:02	Nicolás Cozzi:	para el proyecto final digo
+02:01:12	Rafael Martinez Guarnieri:	Gracias
+02:01:16	Milena Cabrera:	Pero la limpieza y división de la base la hacemos primero en excel no?
+02:03:15	Matias Gambarte Rius:	profe no he podido pasarlo de Excel a sql , si después tiene un momento para ayudarme le agradeceria
+02:03:36	Ezequiel Alberto Sueldo:	consulta, la forma más práctica en SQL Server de definir el tipo de dato en cada campo es mediante código no?
+02:03:59	Ezequiel Alberto Sueldo:	count
+02:04:00	Esteban Poyo Gumiela:	COUNT?
+02:04:01	Matias Gambarte Rius:	count
+02:04:25	[Tutora] Sabrina ianni lucio:	https://www.youtube.com/watch?v=ncqQxbdsNUw
+02:04:34	[Tutora] Sabrina ianni lucio:	Mati te comparto un video
+02:04:34	Santiago Pera:	group by
+02:04:46	[Tutora] Sabrina ianni lucio:	con el paso a paso para importar el excel
+02:05:07	Santiago Pera:	sum
+02:06:13	Esteban Poyo Gumiela:	WHERE
+02:06:28	Santiago Pera:	No es HAVING??
+02:08:44	Yanina Caitano:	me tengo que retirar
+02:08:56	Yanina Caitano:	Yanina46779140
+02:09:25	nicolas romero ortiz:	profe, buenas tardes, se me cortó internet y acaba de volver... aviso por la falta, disculpe las molestias
+02:09:33	Kevin Escudero:	Yo llegué a las 19.15. Aviso por lasdudas
+02:11:00	Rebeca Guzman:	era el AS
+02:12:16	Ezequiel Alberto Sueldo:	DocentesID
+02:12:18	Kevin Escudero:	DocenteID
+02:12:26	Matias Vonella:	Docentes ID
+02:14:21	Ezequiel Alberto Sueldo:	se renombra sólo para esta consulta no?
+02:15:31	Kevin Escudero:	Eso seria un alias?
+02:16:05	Rafael Martinez Guarnieri:	on
+02:18:28	Ezequiel Alberto Sueldo:	o sea having es para filtrar dentro de los campos calculados?
+02:19:02	Ezequiel Alberto Sueldo:	group by
+02:19:52	Joaquin Peñaloza:	profe esa consulta se puede exportar como tabla?
+02:20:06	Patricia Yepez:	se puede obtener como tabla?
+02:20:51	Joaquin Peñaloza:	es decir si la quiero llevar a Excel por ejemplo
+02:22:06	Joaquin Peñaloza:	perfecto gracias
+02:34:45	Rafael Martinez Guarnieri:	si
+02:36:12	Emma Rosario Puch Sleive:	genial. gracias!
+02:36:23	[Tutora] Sabrina ianni lucio:	Buenas noches a todos
+02:36:25	Felipe Monje:	saludoss
+02:36:25	Adriana Borda:	Gracias, saludos!
+02:36:27	nicolas romero ortiz:	gracias profe
+02:36:30	Javier Hernán Aguirre:	Buenas noches
+02:36:31	Isaac Alcides Silva:	Gracias Profe
+02:36:34	Nicolás Cozzi:	saludos
+02:36:36	Isaac Alcides Silva:	Hasta la Proxima
+02:36:36	Daniel Toret Bravo:	Gracias! nos vemos!
+02:36:36	Maria Laura Solbiati:	gracias
+02:36:38	Esteban Poyo Gumiela:	Saludos!
+02:36:42	Matias Vonella:	Hasta la prox

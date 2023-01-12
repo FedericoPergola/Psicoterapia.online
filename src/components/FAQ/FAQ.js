@@ -1,15 +1,21 @@
-import React from 'react'
-import '../FAQ/FAQ.css'
+import React from 'react';
+import '../FAQ/FAQ.css';
+import bgFaq from '../../assests/bgFaq.png';
+import faqTitle from '../../assests/faqTitle.svg';
+
 
 const FAQ = () => {
     return (
-        <div className='faq-content'>
+        <div id='faq' className='faq-content'>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header d-flex justify-content-center" id="headingOne">
-                        <button class="accordion-button w-25 d-flex justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <div className='faq-title'>
-                                <p>FAQ - Preguntas Frecuentes</p>
+                    <h2 class="accordion-header d-flex justify-content-center mb-5" id="headingOne">
+                        <button class="accordion-button d-flex justify-content-center mt-5 mb-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <div className='bg-container-faq'>
+                                <img className='bg-faq' src={bgFaq} alt='...' />
+                            </div>
+                            <div className='faq-title d-flex'>
+                                <img src={faqTitle} alt='Preguntas frecuentes'/>
                             </div>
                         </button>
                     </h2>
