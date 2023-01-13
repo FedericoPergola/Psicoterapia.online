@@ -24,7 +24,7 @@ const Services = () => {
                     <div class="card-body card-body-service ">
                         <h5 class="card-title">Psicología Clínica</h5>
                         <p class="card-text-service pe-2 ps-1">La psicología clínica estudia todos los elementos implicados en los trastornos mentales y, de forma más genérica, la salud mental. </p>
-                        <div className='d-flex justify-content-end pt-5'>
+                        <div className='d-flex justify-content-end pt-5 button-service'>
                             <button onClick={openFirstModal}><img src={button}  alt=''></img></button>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const Services = () => {
                     <div class="card-body card-body-service ">
                         <h5 class="card-title">Desarrollo Personal</h5>
                         <p class="card-text-service pe-2 ps-1">La psicología ofrece una serie de técnicas y recursos para potenciar las habilidades sociales y cognitivas de las personas, permitiéndoles descubrir su singularidad.</p>
-                        <div className='d-flex justify-content-end pt-5'>
+                        <div className='d-flex justify-content-end pt-5 button-service'>
                             <button onClick={openSecondModal}><img src={button} alt=''></img></button>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Services = () => {
                     <div class=" card-body card-body-service">
                         <h5 class="card-title">Talleres y Formaciones</h5>
                         <p class="card-text-service pe-2 ps-1">Brindamos talleres grupales de diversas temáticas orientadas a la salud para cualquier persona interesada en el desarrollo personal.</p>
-                        <div className='d-flex justify-content-end pt-5'>
+                        <div className='d-flex justify-content-end pt-5 button-service'>
                             <button onClick={openThirdModal}><img src={button}  alt=''></img></button>
                         </div>
                     </div>

@@ -14,9 +14,9 @@ return (
             <p className='text-justify'>Nuestro objetivo es brindarte la posibilidad de elección entre varias opciones de servicio, para promover tu <strong>bienestar psíquico y físico</strong>, con el asesoramiento de profesionales adecuados a tu búsqueda o consulta.</p>
             <button type='button'className='btn btn-bienv shadow'>QUIERO MI CONSULTA INICIAL</button>
             <div>
-                <a href='#'><img className='btn' src={instagram} alt="instagram"/></a>
-                <a href='#'><img className='btn' src={whatsapp} alt="whatsapp"/></a>
-                <a href='#'><img className='btn' src={linkedin} alt="linkedin"/></a>
+                <a href='https://www.instagram.com/psicoterapia.online.ar/' target="_blank" rel="noreferrer"><img className='btn' src={instagram} alt="instagram"/></a>
+                <a href='#' target="_blank" rel="noreferrer"><img className='btn' src={whatsapp} alt="whatsapp"/></a>
+                <a href='#' target="_blank" rel="noreferrer"><img className='btn' src={linkedin} alt="linkedin"/></a>
             </div>
         </div>
         <div className='container-imgBienv'>

@@ -18,7 +18,8 @@ const Team = () => {
                 </div>
                 <div class="card-body card-body-team pt-5">
                     <p className='text-lic'>Lic. Natalia Brunati</p>
-                    <p>Licenciada en Psicología</p>
+                    <p>LICENCIADA EN PSICOLOGÍA</p>
+                    <p>Fundadora de Psicoterapia Online</p>
                 </div>
             </div>
             <div class="card-content-melisa w-25">
@@ -27,7 +28,8 @@ const Team = () => {
                 </div>
                 <div class="card-body card-body-team pt-5 ">
                     <p className='text-lic'>Lic. Melisa Condello</p>
-                    <p>Licenciada en Psicología</p>
+                    <p>LICENCIADA EN PSICOLOGÍA</p>
+                    <p>Fundadora de Psicoterapia Online</p>
                 </div>
             </div>
             <div class="card-content w-25">
@@ -36,7 +38,8 @@ const Team = () => {
                 </div>
                 <div class="card-body card-body-team pt-5">
                     <p className='text-lic'>Lic. Luciana Schammah</p>
-                    <p>Licenciada en Psicología</p>
+                    <p>LICENCIADA EN PSICOLOGÍA</p>
+                    <p>Co-Fundadora de Psicoterapia Online</p>
                 </div>
             </div>
         </div>

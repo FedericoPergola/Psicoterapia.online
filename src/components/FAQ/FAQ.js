@@ -21,7 +21,7 @@ const FAQ = () => {
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body-second">
-                            <p>Solicitar una consulta psicológica o decidir si iniciar una terapia psicológica, pueden ser situaciones que generan diversas interrogantes en la mayoría de las personas y la terapia distancia suele generar además otras interrogantes debido a que es una modalidad en la cual intervienen otros factores, respecto a la modalidad convencional o presencial.<br></br><br></br>
+                            <p className='pt-5'>Solicitar una consulta psicológica o decidir si iniciar una terapia psicológica, pueden ser situaciones que generan diversas interrogantes en la mayoría de las personas y la terapia distancia suele generar además otras interrogantes debido a que es una modalidad en la cual intervienen otros factores, respecto a la modalidad convencional o presencial.<br></br><br></br>
                                 <strong>A continuación, compartimos algunas de nuestras preguntas más frecuentes para ayudarte:</strong></p>
                             {/* ---Segundo acordion---- */}
                             <div class="accordion accordion-flush" id="accordionFlushExample">

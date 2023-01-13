@@ -46,8 +46,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 15px;
+    line-height: 20px;
     align-items: center;
     text-align: center;
     color: #ffffff;
@@ -55,5 +55,6 @@
 
 .card-body .text-lic{
     font-weight: 600;
+    font-size: 20px;
 }
 

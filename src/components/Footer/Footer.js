@@ -23,10 +23,10 @@ const Footer = () => {
                     <img className='line-style' src={footerLineaSep} alt='...'/>
                 </div>
                 <div className='mx-auto' >
-                    <a href='#'><img className='btn icons-width' src={footerInstagram} alt="Instagram"/></a>
-                    <a href='#'><img className='btn icons-width' src={footerWhatsapp} alt="Whatsapp"/></a>
-                    <a href='#'><img className='btn icons-width' src={footerLinkedin} alt="Linkedin"/></a>
-                    <a href='#'><img className='btn icons-width' src={footerEmail} alt="E-mail"/></a>
+                    <a href='https://www.instagram.com/psicoterapia.online.ar/' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerInstagram} alt="Instagram"/></a>
+                    <a href='#' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerWhatsapp} alt="Whatsapp"/></a>
+                    <a href='#' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerLinkedin} alt="Linkedin"/></a>
+                    <a href='#' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerEmail} alt="E-mail"/></a>
                     <img className='line-style' src={footerLineaSep} alt='...'/>
                 </div>
                 <div className='d-flex flex-column mx-auto'>

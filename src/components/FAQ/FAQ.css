@@ -30,7 +30,7 @@
     z-index: 2;
     color: white;
     background-color: white;
-    padding:0;
+    /* padding-top: 5px; */
     font-size:3rem
 }
 
@@ -87,8 +87,6 @@
 
 .accordion-item{
     border: none;
-    /* background-image: url('../../assests/FONDOFAQ.png');
-    background-size:contain;
-    background-repeat: no-repeat; */
 }
+
 

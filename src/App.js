@@ -20,8 +20,8 @@ function App() {
       <NavBar />
       <Welcome />
       <AboutUs />
-      <div>
-        <div  className='background'>
+      <div className='section'>
+        <div className='background'>
           <img className='bg-team' src={fondoTeam} alt='...'/>
         </div>
         <Team />
