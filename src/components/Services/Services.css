@@ -1,8 +1,10 @@
-
+/* 
 .service{
     display: flex;
     justify-content: space-evenly;
-}
+} */
+
+
 .card-body-service{
     width: 420px;
     height: 320px;

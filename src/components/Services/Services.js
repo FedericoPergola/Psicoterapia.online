@@ -19,7 +19,7 @@ const Services = () => {
             <div className='d-flex justify-content-center'>
             <p className='text-style'>Te invitamos a explorar las herramientas y servicios que proponemos para relacionarte con lo que te está pasando y para que tus acciones sean un reflejo de tus valores y deseos.</p>
             </div>
-            <div className='service m-5'>
+            <div className='service d-flex justify-content-evenly m-5'>
                 <div class="card">
                     <div class="card-body card-body-service ">
                         <h5 class="card-title">Psicología Clínica</h5>
