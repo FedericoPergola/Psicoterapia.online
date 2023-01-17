@@ -18,7 +18,7 @@ const Steps = () => {
                 <img src={step3} alt="3"/>
             </div>
             <div className='d-grid gap-2 col-6 mx-auto'>
-            <button type="button"className='btn btn-bienv shadow mx-auto'>QUIERO MI CONSULTA INICIAL</button>
+            <button type="button"className='btn btn-bienv shadow mx-auto'><a href='https://calendly.com/psicoterapia-online-ar1' target="_blank" rel="noreferrer">QUIERO MI CONSULTA INICIAL</a></button>
             </div>
         </div>
     )

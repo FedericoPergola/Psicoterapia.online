@@ -4,3 +4,8 @@
     height: 796px;
 }
 
+.btn-bienv a{
+    text-decoration: none;
+    color: var(--color-6-typografhy);
+}
+
