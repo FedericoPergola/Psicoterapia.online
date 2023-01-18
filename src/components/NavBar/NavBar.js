@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <nav className='navbar navbar-expand-lg bg-body-tertiary flex-column p-0'>
             <img className='div-img' src={lineaDiv} alt='linea-div' />
-            <div className='container-fluid p-2 mx-5 flex-row shadow-violet'>
+            <div className='container-fluid p-2 flex-row shadow-violet'>
                 <img className='tamano-logo' src={logoNombre} alt='logo+nombre' />
                 <button className='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasNavbar' aria-controls='offcanvasNavbar'>
                     <span className='navbar-toggler-icon'></span>

@@ -1,7 +1,7 @@
 .bg-footer{
     background-color: var(--color-1);
     color: var(--color-5);
-    height: 140px;
+    height: 100px;
 }
 
 .logo-width{
@@ -21,4 +21,21 @@
 .bg-footer div a{
     text-decoration: none;
     color: var(--color-5);
+}
+
+/*Version mobile*/
+
+@media screen and (max-width:576px) {
+    .bg-footer{
+        height: auto;
+    }
+    .line-style{
+        display: none;
+    }
+    .bg-footer .logo-width{
+        width: 100%;
+    }
+    .icons-width{
+        width: 40%;
+    }
 }

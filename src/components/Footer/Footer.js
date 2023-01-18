@@ -15,7 +15,7 @@ const Footer = () => {
     return (
         <div className='bg-footer'>
             <div>
-                <img className='img-fluid div-img' src={lineaDiv} alt='...'/>
+                <img className='img-fluid div-img d-none d-sm-block' src={lineaDiv} alt='...'/>
             </div>
             <div className='d-flex align-items-center'>
                 <div className='mx-auto'>

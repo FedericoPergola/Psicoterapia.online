@@ -5,10 +5,10 @@ import contactImg from '../../assests/Contacto-img.png'
 
 const Contact = () => {
     const form = useRef();
-      
+    
     const sendEmail = (e) => {
         e.preventDefault();
-      
+    
         emailjs.sendForm('service_27cidym', 'template_g036kcm', form.current, '21mmw6cL4VdtOPAoe')
         .then((result) => {
             console.log(result.text);

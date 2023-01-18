@@ -11,7 +11,7 @@ const Team = () => {
         <div className='d-flex justify-content-center pt-5 m-5'>
             <img src={teamTitle} alt='Conoce a nuestro equipo'/>
         </div>
-        <div className='Team d-flex  justify-content-evenly'>
+        <div className='Team d-flex justify-content-evenly mobile-column'>
             <div class="card-content w-25">
                 <div className='d-flex justify-content-center pt-3'>
                     <img className='img card-img-top' src={natalia} alt="..."/> 

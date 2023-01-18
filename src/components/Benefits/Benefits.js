@@ -9,7 +9,7 @@ import benefitsCard6 from '../../assests/benefitsCard6.png';
 
 const Benefits = () => {
     return (
-        <div>
+        <div className='benefits'>
             <img className='img-fluid mx-auto d-block pt-5' src={benefitsTitle} alt='Beneficios de la terapia online'/>
             <div className='d-flex flex-column'>
                 <div className='d-flex justify-content-around p-5'>
@@ -22,7 +22,6 @@ const Benefits = () => {
                     <img src={benefitsCard5} alt='...'/>
                     <img src={benefitsCard6} alt='...'/>
                 </div>
-                
             </div>
         </div>
     )

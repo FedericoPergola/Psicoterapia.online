@@ -1,23 +1,7 @@
-.bienvenidos-container{
-    align-items: center;
-}
-
-.img-bienvenidos{
-    width: 100%;
-}
-
-.container-bienv{
-    width: 633px;
-    color: var(--color-6-typography);
-}
-
-.container-imgBienv{
-    width: 663.87px;
-    height: 637.1px;
-}
 
 .text-justify{
     text-align: justify;
+    color: var(--color-6-typography);
 }
 
 .btn-bienv{
@@ -32,5 +16,18 @@
     background-color: #B3B5B6;
     color: #FFFFFF;
 }
+
+/*Version mobile*/
+
+@media screen and (max-width:576px) {
+    .mobile-version{
+        justify-content: center !important;
+        align-items: center;
+        text-align: center;
+    }
+    .text-mobile{
+        text-align: center;
+    }
+    }
 
 

@@ -58,3 +58,9 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 576px) {
+    .mobile-column{
+        flex-direction: column;
+    }
+}
+
