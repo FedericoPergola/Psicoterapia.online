@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <div id='team' className='team-content'>
         <div className='d-flex justify-content-center pt-5 m-5'>
-            <img src={teamTitle} alt='Conoce a nuestro equipo'/>
+            <img src={teamTitle} alt='Conoce a nuestro equipo' className='img-team'/>
         </div>
         <div className='Team d-flex justify-content-evenly mobile-column'>
             <div class="card-content w-25">

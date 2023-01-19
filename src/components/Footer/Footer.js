@@ -17,7 +17,7 @@ const Footer = () => {
             <div>
                 <img className='img-fluid div-img d-none d-sm-block' src={lineaDiv} alt='...'/>
             </div>
-            <div className='d-flex align-items-center'>
+            <div className='d-flex align-items-center text-center'>
                 <div className='mx-auto'>
                     <img className='logo-width' src={footerLogo} alt='logo'/>
                     <img className='line-style' src={footerLineaSep} alt='...'/>

@@ -12,12 +12,12 @@ const Benefits = () => {
         <div className='benefits'>
             <img className='img-fluid mx-auto d-block pt-5' src={benefitsTitle} alt='Beneficios de la terapia online'/>
             <div className='d-flex flex-column'>
-                <div className='d-flex justify-content-around p-5'>
+                <div className='d-flex justify-content-around p-5 benefits-content'>
                     <img src={benefitsCard1} alt='...'/>
                     <img src={benefitsCard2} alt='...'/>
                     <img src={benefitsCard3} alt='...'/>
                 </div>
-                <div className='d-flex justify-content-around p-5'>
+                <div className='d-flex justify-content-around p-5 benefits-content'>
                     <img src={benefitsCard4} alt='...'/>
                     <img src={benefitsCard5} alt='...'/>
                     <img src={benefitsCard6} alt='...'/>

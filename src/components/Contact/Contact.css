@@ -84,3 +84,27 @@ input, textarea{
     letter-spacing: 0.05em;
     color: var(--color-6-typography);
 }
+
+/*Version mobile*/
+
+@media screen and (max-width:576px) {
+    .contact-img{
+        display: none;
+    }
+
+    .contact-title p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    form input, form p, .imput, textarea{
+        width: 80%;
+    }
+
+    form button{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+ 

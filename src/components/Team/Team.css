@@ -61,6 +61,20 @@
 @media screen and (max-width: 576px) {
     .mobile-column{
         flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .card-content{
+        width: 75% !important;
+    }
+
+    .card-content-melisa{
+        width: 75% !important;
+    }
+
+    .img-team{
+        width: 100%;
     }
 }
 

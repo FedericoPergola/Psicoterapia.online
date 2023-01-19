@@ -52,3 +52,24 @@
     padding-top: 30px;
     font-weight: 300;
 }
+
+/*Version mobile*/
+
+@media screen and (max-width:576px) {
+    .modal-content{
+        width: 95vw;
+        height: 85vh;
+    }
+
+    .description-modal{
+        font-size: 13px;
+    }
+
+    .modal-text ul li{
+        font-size: 15px;
+    }
+
+    .modal-content svg{
+        width: 60px;
+    }
+ }

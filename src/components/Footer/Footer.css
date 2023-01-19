@@ -38,4 +38,13 @@
     .icons-width{
         width: 40%;
     }
+
+    .bg-footer button{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .bg-footer p{
+        padding: 0px;
+    }
 }

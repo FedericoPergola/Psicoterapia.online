@@ -10,7 +10,7 @@ return (
     <div className='container-fluid d-flex justify-content-around flex-row pt-5 mobile-version'>
         <div className='container-fluid p-5'>
             <div className='container-fluid'>
-                <img className='mb-5 img-fluid' src={welcomeLyrics} alt='welcome' />
+                <img className='mb-5  img-welcome' src={welcomeLyrics} alt='welcome'/>
             </div>
             <p className='text-justify pt-2 text-mobile'>Somos un espacio de psicólogos dedicados a la clínica con diferentes orientaciones y formaciones, con un enfoque <strong>terapéutico y preventivo</strong> de la salud mental.</p>
             <p className='text-justify text-mobile'>Nuestro objetivo es brindarte la posibilidad de elección entre varias opciones de servicio, para promover tu <strong>bienestar psíquico y físico</strong>, con el asesoramiento de profesionales adecuados a tu búsqueda o consulta.</p>
