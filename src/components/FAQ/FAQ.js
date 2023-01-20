@@ -1,7 +1,7 @@
 import React from 'react';
-import '../FAQ/FAQ.css';
 import bgFaq from '../../assests/bgFaq.png';
 import faqTitle from '../../assests/faqTitle.svg';
+import '../FAQ/FAQ.css';
 
 
 const FAQ = () => {

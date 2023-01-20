@@ -1,13 +1,13 @@
-import './Footer.css';
 import footerWhatsapp from '../../assests/footerWhatsapp.png';
 import footerLogo from '../../assests/footerLogo.png';
 import footerLinkedin from '../../assests/footerLinkedin.png';
 import footerLineaSep from '../../assests/footerLineaSep.svg';
 import footerInstagram from '../../assests/footerInstagram.png';
-import footerEmail from '../../assests/footerEmail.png';
-import lineaDiv from '../../assests/lineaDiv.jpg'
-import Modal from '../Modal/Modal'
-import useModal from '../Hooks/useModal'
+import lineaDiv from '../../assests/lineaDiv.jpg';
+import Modal from '../Modal/Modal';
+import useModal from '../Hooks/useModal';
+import ReactWhatsapp from 'react-whatsapp';
+import './Footer.css';
 
 const Footer = () => {
     const [isOpenFooterModal, closeFooterModal, openFooterModal] = useModal()
@@ -28,9 +28,10 @@ const Footer = () => {
                 </div>
                 <div className='mx-auto' >
                     <a href='https://www.instagram.com/psicoterapia.online.ar/' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerInstagram} alt="Instagram"/></a>
-                    <a href='#' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerWhatsapp} alt="Whatsapp"/></a>
+                    <ReactWhatsapp number='+54 1164935117' message='Hola, quisiera mas información sobre la terapia ...'>
+                        <img className='btn icons-width' src={footerWhatsapp} alt="whatsapp"/>
+                    </ReactWhatsapp>
                     <a href='https://www.linkedin.com/company/88436055/admin/' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerLinkedin} alt="Linkedin"/></a>
-                    <a href='#' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerEmail} alt="E-mail"/></a>
                     <img className='line-style' src={footerLineaSep} alt='...'/>
                 </div>
                 <div className='d-flex flex-column mx-auto'>

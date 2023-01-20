@@ -2,12 +2,13 @@ import welcomeImg from '../../assests/welcomeImg.png';
 import welcomeLyrics from '../../assests/welcomeLyrics.svg';
 import instagram from '../../assests/instagram.png';
 import whatsapp from '../../assests/whatsapp.png';
-import linkedin from '../../assests/linkedin.png'
+import linkedin from '../../assests/linkedin.png';
+import ReactWhatsapp from 'react-whatsapp';
 import './Welcome.css';
 
 const Welcome = () => {
 return (
-    <div className='container-fluid d-flex justify-content-around flex-row pt-5 mobile-version'>
+    <div className='welcome container-fluid d-flex justify-content-around flex-row pt-5 mobile-version'>
         <div className='container-fluid p-5'>
             <div className='container-fluid'>
                 <img className='mb-5  img-welcome' src={welcomeLyrics} alt='welcome'/>
@@ -17,7 +18,9 @@ return (
             <a href='https://calendly.com/psicoterapia-online-ar1' target="_blank" rel="noreferrer"><button className='btn btn-bienv shadow mobile-version'>QUIERO MI CONSULTA INICIAL</button></a>
             <div className='d-none d-sm-block'>
                 <a href='https://www.instagram.com/psicoterapia.online.ar/' target="_blank" rel="noreferrer"><img className='btn' src={instagram} alt="instagram"/></a>
-                <a href='#' target="_blank" rel="noreferrer"><img className='btn' src={whatsapp} alt="whatsapp"/></a>
+                <ReactWhatsapp number='+54 1164935117' message='Hola, quisiera mas información sobre la terapia ...'>
+                    <img className='btn' src={whatsapp} alt="whatsapp"/>
+                </ReactWhatsapp>
                 <a href='https://www.linkedin.com/company/88436055/admin/' target="_blank" rel="noreferrer"><img className='btn' src={linkedin} alt="linkedin"/></a>
             </div>
         </div>

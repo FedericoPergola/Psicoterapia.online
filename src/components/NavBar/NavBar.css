@@ -27,4 +27,26 @@
 
 .shadow-violet{
     box-shadow: 0 0.5rem 1rem rgba(88,17,156,.30);
-}                  
+}     
+
+.navbar-toggler-icon{
+    background-image: url('../../assests/VectorMenu.svg');
+}
+
+.btn-close{
+    background-image: url('../../assests/VectorClose.svg');
+}
+
+.offcanvas-end{
+    background-color: var(--color-1);
+    opacity: 0.8;
+}
+
+@media screen and (max-width:576px) {
+    .nav-text{
+        color: var(--color-5);
+        text-align: center;
+        font-size: 18px;
+        line-height: 60px;
+    }
+}

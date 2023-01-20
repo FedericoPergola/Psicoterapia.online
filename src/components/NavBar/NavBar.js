@@ -4,7 +4,7 @@ import lineaDiv from '../../assests/lineaDiv.jpg'
 
 const NavBar = () => {
     return (
-        <nav className='navbar navbar-expand-lg bg-body-tertiary flex-column p-0'>
+        <nav className='navbar navbar-expand-lg bg-body-tertiary flex-column p-0 fixed-top'>
             <img className='div-img' src={lineaDiv} alt='linea-div' />
             <div className='container-fluid p-2 flex-row shadow-violet'>
                 <img className='tamano-logo' src={logoNombre} alt='logo+nombre' />
@@ -27,7 +27,7 @@ const NavBar = () => {
                                 <a className='nav-link nav-text' href='#services'>Servicios</a>
                             </li>
                             <li className='nav-item mx-3'>
-                                <a className='nav-link nav-text' href='#faq'>FAQ</a>
+                                <a className='nav-link nav-text d-none d-sm-block' href='#faq'>FAQ</a>
                             </li>
                             <li className='nav-item mx-3'>
                                 <a className='nav-link nav-text' href='#contact'>Contacto</a>
