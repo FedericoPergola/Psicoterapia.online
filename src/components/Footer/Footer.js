@@ -27,7 +27,7 @@ const Footer = () => {
                     <img className='line-style' src={footerLineaSep} alt='...'/>
                 </div>
                 <div className='mx-auto' >
-                    <a href='https://www.instagram.com/psicoterapia.online.ar/' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerInstagram} alt="Instagram"/></a>
+                    <a href='https://www.instagram.com/psicoterapia.online.ar/' target="_blank" rel="noreferrer"><img className='btn icons-width' src={footerInstagram} alt="Instagram"/></a>     
                     <ReactWhatsapp number='+54 1164935117' message='Hola, quisiera mas información sobre la terapia ...'>
                         <img className='btn icons-width' src={footerWhatsapp} alt="whatsapp"/>
                     </ReactWhatsapp>

@@ -1,21 +1,37 @@
-import { useRef } from 'react'
+import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 import '../Contact/Contact.css'
 import contactImg from '../../assests/Contacto-img.png'
 
 const Contact = () => {
+    const showAlert = () =>{
+        Swal.fire({
+            position: 'top',
+            icon: 'success',
+            title: 'Mensaje enviado',
+            toast: true,
+            showConfirmButton: false,
+            timer: 3500,
+        })
+    }
+    
     const form = useRef();
     
     const sendEmail = (e) => {
         e.preventDefault();
-    
         emailjs.sendForm('service_27cidym', 'template_g036kcm', form.current, '21mmw6cL4VdtOPAoe')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
+        e.target.reset() 
+        showAlert()
+
     };
+
+    
 
     return (
     <div id='contact'>

@@ -21,3 +21,9 @@
     width: 100%;
     height: 1800px;
   }
+
+  @media screen and (max-width:576px) {
+    .bg-team{
+      display: none;
+    }
+ }
