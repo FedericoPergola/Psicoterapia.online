@@ -49,4 +49,8 @@
         font-size: 18px;
         line-height: 60px;
     }
+
+    .navbar{
+        background-color: none;
+    }
 }
