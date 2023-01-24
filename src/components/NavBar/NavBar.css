@@ -42,6 +42,11 @@
     opacity: 0.8;
 }
 
+.navbar{
+    background-color: white !important;
+}
+
+
 @media screen and (max-width:576px) {
     .nav-text{
         color: var(--color-5);
@@ -51,6 +56,6 @@
     }
 
     .navbar{
-        background-color: none;
+        background-color: white !important;
     }
 }
