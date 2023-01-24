@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <div id="aboutUs" className='d-flex flex-column'>
             <div className='bg-container'>
-                <img className='bg-aboutUs' src={bgAboutUs} alt='...'/>
+                <img className='bg-aboutUs d-none d-sm-block' src={bgAboutUs} alt='...'/>
             </div>
             <div className='d-flex justify-content-center'>
                 <img className='img-flecha' src={arrowViolet} alt='flecha'/>            

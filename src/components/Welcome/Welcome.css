@@ -35,6 +35,9 @@
     .img-welcome{
         width: 80vw;
     }
+    .container-conoceNH{
+        background-color: var(--color-1);
+    }
 }
 
 
