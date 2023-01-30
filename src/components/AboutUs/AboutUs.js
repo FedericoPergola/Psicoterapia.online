@@ -14,7 +14,7 @@ const AboutUs = () => {
             </div>
             <div className='d-flex flex-column container-conoceNH'>
                 <div className='container-fluid d-flex justify-content-center pt-5'>
-                    <img className='img-fluid' src={aboutUsTitle} alt='Conoce nuestra historia'/>
+                    <img className='img-fluid p-1' src={aboutUsTitle} alt='Conoce nuestra historia'/>
                 </div>
                 <div className=' container-fluid d-flex justify-content-evenly p-5'>
                     <div className='card-conoceNH'>
