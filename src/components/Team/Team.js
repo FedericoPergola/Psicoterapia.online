@@ -71,7 +71,7 @@ const Team = () => {
                     <h2 className='title-modal'><b>Lic. Melisa Condello</b></h2>
                     <p className='description-modal'>Se recibió en la Universidad de Flores con orientación en Psicología Cognitiva.Desde entonces trabajó como acompañante terapéutica en el ámbito escolar y como Orientadora vocacional dentro del ministerio y en consultas individuales. </p> 
                     <p className='description-modal'>Actualmente se dedica a acompañar procesos individuales de desarrollo personal mediante el Arteterapia, disciplina de encuentro entre dos proyectos: uno artístico y otro terapéutico. Formada en vínculos y emociones desde la psicología transpersonal, orientada al autoconocimiento y bienestar emocional.</p>
-                    <p className='description-modal'>Además, trabaja en una ONG de inserción de mujeres en tecnología dentro del desarrollo de proyectos de formación y capacitación, como orientación vocacional e incubación de emprendimientos liderados por mujeres. Continúa especializándose en tecnología aplicada a la educación.”</p>
+                    <p className='description-modal'>Además, trabaja en una ONG de inserción de mujeres en tecnología dentro del desarrollo de proyectos de formación y capacitación, como orientación vocacional e incubación de emprendimientos liderados por mujeres. Continúa especializándose en tecnología aplicada a la educación.</p>
                 </div>
                 </Modal>
 

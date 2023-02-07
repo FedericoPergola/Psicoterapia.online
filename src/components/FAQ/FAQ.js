@@ -132,7 +132,7 @@ const FAQ = () => {
                                         </button>
                                     </h2>
                                     <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Al abonar la misma y enviar el comprobante de pago. Una vez iniciado el tratamiento se establecerá cpn el profesional día, hora y frecuencia de las sesiones.</div>
+                                        <div class="accordion-body">Al abonar la misma y enviar el comprobante de pago. Una vez iniciado el tratamiento se establecerá con el profesional día, hora y frecuencia de las sesiones.</div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
