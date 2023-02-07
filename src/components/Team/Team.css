@@ -26,6 +26,7 @@
     width: 420px;
     height: 466px;
     max-width: 350px;
+    cursor: pointer;
 }
 
 .card-content-melisa{
@@ -33,6 +34,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     max-width: 350px;
+    cursor: pointer;
 }
 
 .img{
@@ -56,6 +58,15 @@
 .card-body .text-lic{
     font-weight: 600;
     font-size: 20px;
+}
+
+.bg-modalTeam{
+    background-color: var(--color-1);
+    color: var(--color-5);
+}
+
+.team-content .modal-content svg {
+    color: var(--color-5);
 }
 
 @media screen and (max-width: 576px) {
