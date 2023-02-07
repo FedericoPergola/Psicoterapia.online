@@ -13,8 +13,9 @@ return (
             <div className='container-fluid'>
                 <img className='mb-5  img-welcome' src={welcomeLyrics} alt='welcome'/>
             </div>
-            <p className='text-justify pt-2 text-mobile'>Somos un espacio de psicólogos dedicados a la clínica con diferentes orientaciones y formaciones, con un enfoque <strong>terapéutico y preventivo</strong> de la salud mental.</p>
-            <p className='text-justify text-mobile'>Nuestro objetivo es brindarte la posibilidad de elección entre varias opciones de servicio, para promover tu <strong>bienestar psíquico y físico</strong>, con el asesoramiento de profesionales adecuados a tu búsqueda o consulta.</p>
+            <p className='text-justify pt-2 text-mobile'><strong>Somos</strong> un equipo de trabajo con profesionales orientados en diversos ámbitos de la salud mental y conectados en red con profesionales de otras disciplinas.</p>
+            <p className='text-justify text-mobile'><strong>Ofrecemos</strong> a posibilidad de que podamos comunicarnos regularmente, trabajar temas que consideremos de necesidad o interés en cada etapa de nuestro trabajo, supervisar casos, y pensar en conjunto, más allá de la especialidad que amerite cada persona a tratar.</p>
+            <p className='text-justify text-mobile'><strong>Entendemos</strong> a la persona que nos consulta como un ser integral al que le pasan cosas y quien sea su terapeuta guiará ese tratamiento, pero podrá apoyarse en el equipo y la formación en otras áreas que miembros del mismo tengan para aportar más al crecimiento de la persona a asistir.</p>
             <a href='https://calendly.com/psicoterapia-online-ar1' target="_blank" rel="noreferrer"><button className='btn btn-bienv shadow mobile-version'>QUIERO MI CONSULTA INICIAL</button></a>
             <div className='d-none d-sm-block'>
                 <a href='https://www.instagram.com/psicoterapia.online.ar/' target="_blank" rel="noreferrer"><img className='btn' src={instagram} alt="instagram"/></a>
